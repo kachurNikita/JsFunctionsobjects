@@ -102,7 +102,7 @@ function Book (author, nameOfBook, year,publishingHouse ) {
 };
 
 const book1 = new Book('Nikola Tesla', 'Electricity', 1900, 'Undefaind-publiching-house');
-const book2 = new Book('Joe Dispenza', 'Power ofMind', 2013, 'star=pictures');
+const book2 = new Book('Joe Dispenza', 'Power ofMind', 2015, 'star=pictures');
 
 function Electronicbook (author, nameOfBook, year,publishingHouse, format, electronicNumber ) {
     this.author = author,
