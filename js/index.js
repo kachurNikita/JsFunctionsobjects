@@ -44,7 +44,6 @@ function isAdult (age) {
    };
 
 // find square's Functions
-
 // rectangle Square
 
 function rectangleResult (a, b) {
@@ -61,14 +60,13 @@ function findTriangleSquare (height, side) {
     return result
 }
 
-
     // student obj
 
     const student = {
      name: 'Nikita',
      surname: 'Kachur',
      gender: 'Male',
-     phoneNumber: 11223344,
+     phoneNumber: '11223344',
         adress: '',
      changeGender() {
          this.gender = 'Female'
@@ -84,14 +82,11 @@ function findTriangleSquare (height, side) {
      classRoom: 'mathematical',
      className:  'A',
      studentsValue: 30,
-     changeClass () {
-         this.classRoom = 'philological',
-             this.className = 'B',
-          this.studentsValue = 28
-     },
+     anotherClass: '',
+     changeClass() {
+         this.anotherClass = 'B'
+     }
  };
-
-studyObj.changeClass()
 
 // functions Constructors
 
@@ -105,7 +100,7 @@ const book1 = new Book('Nikola Tesla', 'Electricity', 1900, 'Undefaind-publichin
 const book2 = new Book('Joe Dispenza', 'Power ofMind', 2015, 'star=pictures');
 
 function Electronicbook (author, nameOfBook, year,publishingHouse, format, electronicNumber ) {
-    this.author = author,
+        this.author = author,
         this.nameOfBook = nameOfBook,
         this.publishingHouse = publishingHouse;
         this.format = format;
