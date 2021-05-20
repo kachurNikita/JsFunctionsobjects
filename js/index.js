@@ -60,7 +60,7 @@ function findTriangleSquare (height, side) {
     const result = s1 + s2;
     return result
 }
-    //objects tasks
+
 
     // student obj
 
