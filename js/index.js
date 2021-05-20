@@ -75,7 +75,7 @@ function findTriangleSquare (height, side) {
      },
         showAdress() {
          this.adress = 'Paramonova'
-        }
+        },
  };
 
  // change class For obj
