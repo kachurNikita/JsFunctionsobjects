@@ -58,7 +58,7 @@ function findTriangleSquare (height, side) {
     const s2 = triangleHalf * 2;
     const result = s1 + s2;
     return result
-}
+};
 
     // student obj
 
@@ -68,8 +68,8 @@ function findTriangleSquare (height, side) {
      gender: 'Male',
      phoneNumber: '11223344',
         adress: '',
-     changeGender() {
-         this.gender = 'Female'
+     changeGender(someGender) {
+         this.gender = someGender;
      },
         showAdress() {
          this.adress = 'Paramonova'
@@ -82,32 +82,31 @@ function findTriangleSquare (height, side) {
      classRoom: 'mathematical',
      className:  'A',
      studentsValue: 30,
-     anotherClass: '',
-     changeClass() {
-         this.anotherClass = 'B'
+     changeClass(someClass) {
+         this.className = someClass;
      }
  };
 
 // functions Constructors
 
 function Book (author, nameOfBook, year,publishingHouse ) {
-    this.author = author,
-        this.nameOfBook = nameOfBook,
-        this.publishingHouse = publishingHouse
+    this.author = author;
+        this.nameOfBook = nameOfBook;
+        this.publishingHouse = publishingHouse;
 };
 
 const book1 = new Book('Nikola Tesla', 'Electricity', 1900, 'Undefaind-publiching-house');
 const book2 = new Book('Joe Dispenza', 'Power ofMind', 2015, 'star=pictures');
 
 function Electronicbook (author, nameOfBook, year,publishingHouse, format, electronicNumber ) {
-        this.author = author,
-        this.nameOfBook = nameOfBook,
+        this.author = author;
+        this.nameOfBook = nameOfBook;
         this.publishingHouse = publishingHouse;
         this.format = format;
         this.electronicNumber = electronicNumber;
 };
 
-const electonicBook = new Electronicbook('Ivan Mazepa', 'Getmanshina', 1601, 'EPUB', 11223344)
+const electonicBook = new Electronicbook('Ivan Mazepa', 'Getmanshina', 1601, 'EPUB', 11223344);
 const electonicBook2 = new Electronicbook('Ilon Mask', 'How to be a Genios', 2021, 'DOC', 112664223344);
 
 
